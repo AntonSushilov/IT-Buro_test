@@ -1,0 +1,76 @@
+/*Общие стили*/
+
+body{
+	background-color: #1ba0ef;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+	color: #f8fdff;
+	font-weight: 300;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+.cloud{
+	background-image: url("../img/Cloud.png");
+	background-repeat: no-repeat;
+	background-position: left, bottom;  
+	background-size: 1000px;
+    z-index: 2;
+}
+
+.container{
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+/*Header*/
+.header{
+	margin-top: 50px;
+}
+.header-nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 130px;
+}
+a{
+	text-decoration: none;
+	color: #f8fdff;
+	text-decoration: underline;
+}
+
+/*Content*/
+.content{
+	display: flex;
+	flex-direction: column;
+}
+.p-b-40{
+	padding-bottom: 40px;
+}
+.content-head{
+	padding-top: 30px;
+	font-size: 25px;	
+}
+
+.content-both{
+	display: flex;
+}
+.left{
+	margin-right: 30px;
+}
+.content-text{
+	display: flex;
+	font-size: 13px;
+}
+.logo{
+	padding-right: 20px;
+}
+.content-footer{
+	margin-top: 170px;
+}
+hr{
+	margin-bottom: 30px;
+}
